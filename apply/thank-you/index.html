@@ -3,37 +3,59 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Thanks | Fit Urban Pro</title>
-<meta name="description" content="Six months of one-on-one health coaching with Guy Leggett, for men who want to be as good at their health as they are at their work.">
+<title>Fit Urban Pro</title>
 <meta name="robots" content="noindex, nofollow">
-<link rel="canonical" href="https://fiturbanpro.com/apply/thank-you/">
 <link rel="icon" href="/assets/fup-favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/assets/fup-apple-touch-icon-180.png">
-<meta name="theme-color" content="#F4F4F0" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#1A1F24" media="(prefers-color-scheme: dark)">
-<meta property="og:title" content="Thanks | Fit Urban Pro">
-<meta property="og:description" content="Six months of one-on-one health coaching with Guy Leggett, for men who want to be as good at their health as they are at their work.">
-<meta property="og:image" content="https://fiturbanpro.com/img/fup-hero-cafe-1920.jpg">
+<meta name="theme-color" content="#1A1F24">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/site.css?v=6a0c9006">
+<style>
+html,body{height:100%}
+body.lock{margin:0;min-height:100%;display:grid;place-items:center;background-color:var(--deep);background-image:var(--tex-deep);color:var(--ondeep);font:400 18px/1.6 var(--fb);padding:24px max(24px,env(safe-area-inset-right,0px)) 24px max(24px,env(safe-area-inset-left,0px))}
+.gate{width:min(100%,380px);display:grid;justify-items:center;gap:22px;text-align:center;visibility:hidden}
+.ready .gate{visibility:visible}
+.gate img{height:calc(var(--logoh) * 1.5);width:auto}
+.gate .rule{width:36px;height:1px;background:var(--hi)}
+.gate .lbl{color:var(--ondeepm)}
+.gate p{margin:0;color:var(--ondeepm);font-size:1rem}
+.gate form{display:flex;width:100%;border-bottom:1px solid color-mix(in srgb,var(--ondeep) 40%,transparent);margin-top:8px}
+.gate input{flex:1;min-width:0;background:transparent;border:0;color:var(--ondeep);font:inherit;padding:12px 4px;outline:none;letter-spacing:.06em}
+.gate input::placeholder{color:var(--ondeepm)}
+.gate button{background:none;border:0;color:var(--ondeep);font:600 .95rem var(--fb);cursor:pointer;padding:12px 4px;display:inline-flex;align-items:center;gap:8px}
+.gate form:focus-within{border-color:var(--ondeep)}
+.gate .err{color:var(--hi);min-height:1.6em;font-size:.9rem}
+.gate .shake{animation:shake .4s}
+@keyframes shake{20%,60%{transform:translateX(-6px)}40%,80%{transform:translateX(6px)}}
+@media (prefers-reduced-motion:reduce){.gate .shake{animation:none}}
+</style>
 </head>
-<body class="ribbon-light">
-<header class="hdr"><div class="wrap">
-<a class="logo" href="/"><img class="logo-dark" src="/assets/fup-horizontal.svg" alt="Fit Urban Pro"><img class="logo-light" src="/assets/fup-horizontal-white.svg" alt="Fit Urban Pro"></a>
-<button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mnav"><span></span><span></span><span></span></button>
-</div></header>
-<div class="mnav" id="mnav" aria-hidden="true" aria-label="Menu">
-<nav aria-label="Main"><a href="/your-season/">Your Season</a><a href="/the-club/">The Club</a><a href="/results/">Results</a><a href="/about/">About Guy</a><span class="sep"></span><a class="sub" href="/faqs/">FAQs</a><a class="sub" href="/contact/">Contact</a></nav>
-<div class="mfoot"><img src="/assets/fup-horizontal.svg" class="logo-dark" alt=""><img src="/assets/fup-horizontal-white.svg" class="logo-light" alt=""><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></div></div>
-<div class="mscrim" aria-hidden="true"></div>
-<main id="top">
-<section class="sec r4 tex"><div class="wrap"><span class="lbl">Application received</span><h1 class="disp">Thanks. Next, your Roadmap.</h1>
-<div class="row"><p class="lead">Book your Personal Health Roadmap: 45 minutes with Guy to look at where you are, what's possible, and the plan.</p><div class="btns"><a class="btn" href="#">Book your Roadmap</a></div></div></div></section><section class="sec" style="padding-top:0"><div class="wrap"><p class="draftnote" style="max-width:640px">Draft: the booking link (Calendly with Stripe, $100) is coming. The button above doesn't work yet.</p></div></section><section class="sec alt"><div class="wrap rv"><div class="head"><span class="lbl">What happens next</span><h2 class="h2">From here to your Season.</h2></div><ol class="r8" style="--n:3"><li><h3 class="h3">Book your Roadmap</h3><p class="body">Pick a time that suits you.</p><span class=meta>$100, credited to your Season</span></li><li><h3 class="h3">Talk it through with Guy</h3><p class="body">45 minutes on where you are, what's possible, and the plan.</p><span class=meta>Video or in person</span></li><li><h3 class="h3">Your Season begins</h3><p class="body">An in-person Kick-off, then 13 consults over 26 weeks.</p><span class=meta>Next start: 1 February 2027</span></li></ol></div></section>
+<body class="lock">
+<main class="gate">
+<img src="/assets/fup-horizontal-white.svg" alt="Fit Urban Pro">
+<span class="rule" aria-hidden="true"></span>
+<span class="lbl">Private preview</span>
+<p>This site isn't open yet.</p>
+<form id="lockform"><label for="lockpw" class="hp">Password</label><input id="lockpw" type="password" autocomplete="current-password" placeholder="Password" aria-label="Password" required><button type="submit">Enter <span aria-hidden="true">→</span></button></form>
+<p class="err" id="lockerr" role="alert"></p>
+<noscript><p>This preview needs JavaScript switched on.</p></noscript>
 </main>
-<footer class="ftr deep"><div class="wrap">
-<div class="cols"><div class="stack s"><a class="logo" href="/"><img src="/assets/fup-horizontal-white.svg" alt="Fit Urban Pro"></a><p class="body" style="max-width:32ch">Your health is a project. Run it properly.<br>Nutrition. Movement. Mindset. Data. Guy.</p></div><div><span class="lbl">Fit Urban Pro</span><ul><li><a href="/your-season/">Your Season</a></li><li><a href="/the-club/">The Club</a></li><li><a href="/results/">Results</a></li><li><a href="/about/">About Guy</a></li></ul></div><div><span class="lbl">Start</span><ul><li><a href="/apply/">Apply</a></li><li><a href="/faqs/">FAQs</a></li><li><a href="/contact/">Contact</a></li><li><a href="https://app.fiturbanpro.com/login">Client login</a></li></ul></div><div><span class="lbl">Family</span><ul><li><a href="https://leifulhealth.com/">For women: Leiful Health</a></li><li><a href="https://guyleggett.com.au/talks/">For your workplace: talks</a></li><li><a href="https://guyleggett.com.au/">Guy Leggett</a></li></ul></div></div>
-<div class="legal"><span>© 2026 Guy Leggett</span><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/data-deletion/">Delete my data</a></div>
-</div></footer>
-<script src="/assets/site.js?v=6a0c9006" defer></script>
+<div id="lockdata" hidden data-s="0PUEANXQ5U1SOBoRe4j1Fw==" data-n="ZljXeBaJ8lETguFS" data-c="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" data-i="200000"></div>
+<script>
+(async function(){
+  var d=document.getElementById("lockdata").dataset, K="lk:"+d.s;
+  function b(x){return Uint8Array.from(atob(x),function(c){return c.charCodeAt(0);});}
+  async function show(key){var pt=await crypto.subtle.decrypt({name:"AES-GCM",iv:b(d.n)},key,b(d.c));var h=new TextDecoder().decode(pt);document.open();document.write(h);document.close();}
+  try{var raw=localStorage.getItem(K);if(raw){await show(await crypto.subtle.importKey("raw",b(raw),"AES-GCM",false,["decrypt"]));return;}}catch(e){try{localStorage.removeItem(K);}catch(_){}}
+  document.documentElement.classList.add("ready");
+  var f=document.getElementById("lockform"),i=document.getElementById("lockpw"),err=document.getElementById("lockerr");i.focus();
+  f.addEventListener("submit",async function(e){e.preventDefault();err.textContent="";
+    try{var base=await crypto.subtle.importKey("raw",new TextEncoder().encode(i.value),"PBKDF2",false,["deriveKey"]);
+      var key=await crypto.subtle.deriveKey({name:"PBKDF2",salt:b(d.s),iterations:+d.i,hash:"SHA-256"},base,{name:"AES-GCM",length:256},true,["decrypt"]);
+      var test=await crypto.subtle.decrypt({name:"AES-GCM",iv:b(d.n)},key,b(d.c));
+      try{var r=new Uint8Array(await crypto.subtle.exportKey("raw",key));localStorage.setItem(K,btoa(String.fromCharCode.apply(null,r)));}catch(_){}
+      document.open();document.write(new TextDecoder().decode(test));document.close();
+    }catch(x){err.textContent="That's not it. Try again.";f.classList.remove("shake");void f.offsetWidth;f.classList.add("shake");i.select();}});
+})();
+</script>
 </body></html>

@@ -3,44 +3,59 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Nipun's journey | Fit Urban Pro</title>
-<meta name="description" content="Nipun, Architecture student, Brisbane: I lost 14kg and got ripped.">
+<title>Fit Urban Pro</title>
 <meta name="robots" content="noindex, nofollow">
-<link rel="canonical" href="https://fiturbanpro.com/nipuns-journey/">
 <link rel="icon" href="/assets/fup-favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/assets/fup-apple-touch-icon-180.png">
-<meta name="theme-color" content="#F4F4F0" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#1A1F24" media="(prefers-color-scheme: dark)">
-<meta property="og:title" content="Nipun's journey | Fit Urban Pro">
-<meta property="og:description" content="Nipun, Architecture student, Brisbane: I lost 14kg and got ripped.">
-<meta property="og:image" content="https://fiturbanpro.com/img/fup-hero-cafe-1920.jpg">
+<meta name="theme-color" content="#1A1F24">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/site.css?v=6a0c9006">
+<style>
+html,body{height:100%}
+body.lock{margin:0;min-height:100%;display:grid;place-items:center;background-color:var(--deep);background-image:var(--tex-deep);color:var(--ondeep);font:400 18px/1.6 var(--fb);padding:24px max(24px,env(safe-area-inset-right,0px)) 24px max(24px,env(safe-area-inset-left,0px))}
+.gate{width:min(100%,380px);display:grid;justify-items:center;gap:22px;text-align:center;visibility:hidden}
+.ready .gate{visibility:visible}
+.gate img{height:calc(var(--logoh) * 1.5);width:auto}
+.gate .rule{width:36px;height:1px;background:var(--hi)}
+.gate .lbl{color:var(--ondeepm)}
+.gate p{margin:0;color:var(--ondeepm);font-size:1rem}
+.gate form{display:flex;width:100%;border-bottom:1px solid color-mix(in srgb,var(--ondeep) 40%,transparent);margin-top:8px}
+.gate input{flex:1;min-width:0;background:transparent;border:0;color:var(--ondeep);font:inherit;padding:12px 4px;outline:none;letter-spacing:.06em}
+.gate input::placeholder{color:var(--ondeepm)}
+.gate button{background:none;border:0;color:var(--ondeep);font:600 .95rem var(--fb);cursor:pointer;padding:12px 4px;display:inline-flex;align-items:center;gap:8px}
+.gate form:focus-within{border-color:var(--ondeep)}
+.gate .err{color:var(--hi);min-height:1.6em;font-size:.9rem}
+.gate .shake{animation:shake .4s}
+@keyframes shake{20%,60%{transform:translateX(-6px)}40%,80%{transform:translateX(6px)}}
+@media (prefers-reduced-motion:reduce){.gate .shake{animation:none}}
+</style>
 </head>
-<body class="ribbon-light">
-<header class="hdr"><div class="wrap">
-<a class="logo" href="/"><img class="logo-dark" src="/assets/fup-horizontal.svg" alt="Fit Urban Pro"><img class="logo-light" src="/assets/fup-horizontal-white.svg" alt="Fit Urban Pro"></a>
-<button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mnav"><span></span><span></span><span></span></button>
-</div></header>
-<div class="mnav" id="mnav" aria-hidden="true" aria-label="Menu">
-<nav aria-label="Main"><a href="/your-season/">Your Season</a><a href="/the-club/">The Club</a><a href="/results/">Results</a><a href="/about/">About Guy</a><span class="sep"></span><a class="sub" href="/faqs/">FAQs</a><a class="sub" href="/contact/">Contact</a></nav>
-<div class="mfoot"><img src="/assets/fup-horizontal.svg" class="logo-dark" alt=""><img src="/assets/fup-horizontal-white.svg" class="logo-light" alt=""><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></div></div>
-<div class="mscrim" aria-hidden="true"></div>
-<main id="top">
-<section class="sec r4 tex"><div class="wrap"><span class="lbl">Architecture student, Brisbane · 14.0 kg in 5 months</span><h1 class="disp">Nipun's journey</h1>
-<div class="row"><p class="lead">“I lost 14kg and got ripped.”</p><div class="btns"><a class="btn q" href="/results/">All results</a></div></div></div></section><section class="sec" style="padding-top:0"><div class="wrap"><div class="prose"><h2>NIPUN'S JOURNEY</h2>
-<p><strong>Weight Lost:</strong> 14.0kg</p>
-<p><strong>Start:</strong> 78.8kg</p>
-<p><strong>End:</strong> 61.8kg</p>
-<p><strong>Time:</strong> 5 months</p>
-<p><strong>Occupation:</strong> Architecture Student</p>
-<p><strong>Client Comments:</strong></p>
-<p>I lost 14kg and got ripped. The big thing for me was having a structure I could follow while completing my studies, as well as having the flexibility to still have occasional cheat meals.</p></div></div></section><section class="sec deep"><div class="wrap r14 rv"><div class="stack s"><span class="lbl">Your Season</span><h2 class="h2" style="max-width:20ch">Your numbers are next.</h2></div><div class="btns"><a class="btn" href="/apply/">Apply</a></div></div></section>
+<body class="lock">
+<main class="gate">
+<img src="/assets/fup-horizontal-white.svg" alt="Fit Urban Pro">
+<span class="rule" aria-hidden="true"></span>
+<span class="lbl">Private preview</span>
+<p>This site isn't open yet.</p>
+<form id="lockform"><label for="lockpw" class="hp">Password</label><input id="lockpw" type="password" autocomplete="current-password" placeholder="Password" aria-label="Password" required><button type="submit">Enter <span aria-hidden="true">→</span></button></form>
+<p class="err" id="lockerr" role="alert"></p>
+<noscript><p>This preview needs JavaScript switched on.</p></noscript>
 </main>
-<footer class="ftr deep"><div class="wrap">
-<div class="cols"><div class="stack s"><a class="logo" href="/"><img src="/assets/fup-horizontal-white.svg" alt="Fit Urban Pro"></a><p class="body" style="max-width:32ch">Your health is a project. Run it properly.<br>Nutrition. Movement. Mindset. Data. Guy.</p></div><div><span class="lbl">Fit Urban Pro</span><ul><li><a href="/your-season/">Your Season</a></li><li><a href="/the-club/">The Club</a></li><li><a href="/results/">Results</a></li><li><a href="/about/">About Guy</a></li></ul></div><div><span class="lbl">Start</span><ul><li><a href="/apply/">Apply</a></li><li><a href="/faqs/">FAQs</a></li><li><a href="/contact/">Contact</a></li><li><a href="https://app.fiturbanpro.com/login">Client login</a></li></ul></div><div><span class="lbl">Family</span><ul><li><a href="https://leifulhealth.com/">For women: Leiful Health</a></li><li><a href="https://guyleggett.com.au/talks/">For your workplace: talks</a></li><li><a href="https://guyleggett.com.au/">Guy Leggett</a></li></ul></div></div>
-<div class="legal"><span>© 2026 Guy Leggett</span><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/data-deletion/">Delete my data</a></div>
-</div></footer>
-<script src="/assets/site.js?v=6a0c9006" defer></script>
+<div id="lockdata" hidden data-s="0PUEANXQ5U1SOBoRe4j1Fw==" data-n="sOSzlLP0V3s/5Vlp" data-c="9HnA5yVYjTjxraCiLeD2Ni9mmybOC/qTdk8UwO2lSkLW8VjjqEzKA3T0QaojuhtOlY3ZCE3rTiGXb5rpMws0eG9kiW5TkN7vpsFDd5/ZxrZ1zVlGKklvjGuEAlrNd3fcGi6TUXx/YoSL6El8dI/ffg78DKxp4TTRcgErvGdua3d4dN6CGvOfLoTWw7EPSbfmOFlFUmEgSMlJnnETmD634HKAIZUezGoNn3IVZLNsKInSdIfVyEJ4f7+ii3J5kQHWVBABd17jexiodfST2uauYCq0OznJO7mgx7oBkOT24n7tKqJd9WbRjpNlKnz8Mtqq+AdZ4ymYGhe4MjDwGxokdZdUW1XKskq+0R0UW7sh2owB1fCKnqzgSTq4oG94t+aK6s8Ud87P3adv2jh0wwzSn+1z/CeKmHGemG33qV3bElLSUa/vO4m6hgGRlMBbjvwaThp9gyCjfsupJgHmhaRg2AHASQiNN2vDNZ+51RZRkpLeNrTGm8re3zBzcnF/WMej69q8gG0cBOa3Zs+YrsVO0lHC4D3YQ0P/p8WHvnMS1ryTnFTh5EjoYazWQLlguLfNYxpAXuy4FoPCmwSoOKvCQjVU4yWN94d8gAabe71IWLugt+WDP7hoJ1R0JReD5yLsme+EyGgskJS8xp+QOr6SRillxH8brHDURVHw6wKOyywbPzoA5d4kJJ0q+LxsxdFlj5qaWql/1XgDaJacCTsQf5in304d2UNa3kZ6DsS1UmyCmMEAbTJsXNI5I0eysOg8BAAXBA3xzaAHGwgHA9G6ahTAymRU5sF0vSeMSdaCbqg00BljYACDisFOctYy6mTdTMpeIZ5idzqPoXqU+LGgjXAo6Nw2RVUTGfMdpT1/otZRy98w1OwJ0UUBATzMUpGUns1epjDSjsZUAbtZehenQhuUNQCN0bjMipv3PaGHXSV9D278q75E3NZj5bt3ZpTjq1VMGEIqhjHd3MbO4+PzwuOftmfcFLw6yyznaM+kaML4zy6K5kNK4fuXkFDAb1Esg/5EI75bP+spnk6WUTa8xIKq15wLFU8RJwA2+eTqoZ6UXVdYW7VK/j5bxHUovsLcbSaa3qwY37/Md0/LcKpGeEqcRo2HBVs9ZbY9oaDiqaXURviYW0HvOPsJo4EV9h2jiuncleAqoI6a2sv3WkkgRoDpFb6UBTkOZ7QKFFY4qpULqU8aleA4nooeYsro392Yar9sT6ajVW7Jd4u9JFdEUm9Hn1xGloVgddyNFCTCXknOZMbGJvUIQjiFr0Pn7GkEMq3Z+bO/Y2HtSmkC95ukLL4G0fem22SNC20UbKmZBJsGS5B4RcSpsfKNH9fdJWnE0OHm/8KUHgwbxYged6BAMVaumsEs/1H6X9FtFXA00ClK3jtiRoarSbu63kxbZTNkiv83qHeA7/WDxSJBP0TGr3hxyvLE4TUUbkrT10kxj9uL4aWdd3+UVVLw6CZHr6Vu1mvRNej9YibmOf8fx39w7+f57OacxWN8p4p8kIVwRTcD6E6/vVyX5iqvcYQ+QyCePaZ2vfy9MJflbnyTZ2D6i32hVjwAjO4EFBgPnuibhvWr+8y/XEpGHP4wXbrN6eA0BCzA7MB6YB64EHebOFoAMLiYD8vL0v7O977XG4q3vlQjhkr5W5NyRZ8qiQNW4VRo8pFv2M0vnEmqYfAb7FN0+je559awiL7zIgvAR0oWiAwDjbznzk4KVmEdBiZpeTSuF4mpFpwH2l09+hJN0Cvm0cc4loPtKmCAYAWE9Ewllgi/VYc5YL6tKzyzOLYIU+diy0DTwGEGkudm15X0y51OZBTRSA4u3FQkoxgHRwr6SrwQJGoOMuqQ7bWMji4Gpq0AcvzG64hNvo1pnNhoAukU48kjT3ibaNvg+yZIJKXAvHVlR7VQgyAEUcay26G+kauaVxgGG7Ntdps3e9WA4zOYPT1osCAo34jRz27ejkpOvZW1QlUVHFeopqGWLlRJgOmt898sh0g7yMVDKQ7cj7wQwfpseFLxuiSZR0UKpjWFYI+sFkHSqo/f3ggScranHdmN/6l4+PP3RWBpIZl4a5V8fiie8gL9/Ki/IawEBr1itHRpq0rVXuzRJwPIa4a7PzdX0HILxZaR+19XM2jDe5AoGFwfgFAiwGyY0J8nJSO3eR/51DCNoYznBvEe8j+l/VBAQlCqAGf3TvhUGkmwpdzgvvxMQqg7E+KBhPg761gAkhwBxP9aWNKOozqOmTcgRJ5rS3Ye8nVw3wbp5gVvFr6Gub9JRbwbwCf60oUvVIH5AbyeTPRCFwgg4BoRQGGMjx59dzyUxibkgCEsQcNLqcNrs62CMb0Jv21pmsER7VeCETcrB6isn/YirB00OPmVnPvHUDCBFdPcQakZq+FrTundC2w7vBZc1pE+68BVFUXubvSOR2unD32htsSE8dgQDGBMvQ006YoMcHQWv3QlFUOr6vv6mYqYKlYsVsmVtJP0x1ZNQKZGVcrMzhVonBxIAFUOvP8zibafl6yPLri98PuUDffgvTua/EIXPmxUwd+1RrTPmgEI0CFWVLNYdK2hm3Iku6QuHzJ4LH9dzEsd0Q18Ik8X+l8RgCn8hGjd7oVlhXPNIQBtxNyI1W4Ym3bav2u9ledG9qemg9Qc0MylhQIbInAyCP621aMFBu1zJ2kES2xDyuLSHGqR7FWbbRNf01DBYt7KgqZJ+8ZbVjQ4yCkQz8bmUR8zg/pDFimCFR0QPsP7GHkVTrYioIyfZxCXvRDewVUkNpUKCYns67vpXnMeAvg9svu5gFxH7iwHgF0eWfgQmun0IrbQ2GAGJAjNFmXplKTzuBMeq6FP7dprSljobufT2zB+k7cG4AlN1TSX1LnhH6T/fv9LviPDc30+liDmLQMPaDfzfF0dPsnW8CTAbAZohkA+IeLGMSVsujxHmUvaGEjoBBLlN9FZRJNqtqpNzyOktQIrTtY79RtHiHC+DoegGMlo7Jo+kTelnLOQ8HzMhum8csV7cLcCv71eBbB3WXp2M+e3tIFt/vSptHNm9w3bm74RHnDt51A4XnF7DvTUGLwkue+aZ1TAvXd4AnrFbncfUuD/hsX2wdtDGtM8s3+HY3cNKwpr0wlZihx90jjIgql8NTNk8i1MjppqSpHM3dG/DmU+keY2/4dg+vufhp6lIhshVDfgyyj7VCVLgNgsl1rBf+xeuMP28reisgu/W6g7O4nAEM4+9odcNlnIM6vKXmuLtkzm8BgoNQoIYCA+1b5mikZh2t9aheRSyWQnTA2AgZPouCYSxVo3L3zyhAwdJlDewCyAfeoyXs6JFB52hb0Pq8icmDXzRDhna/P3rZvQJeWXxBrCNA4KvoqXtnZk/fYBG/f5CLetGsXXarGMoxnaXEIuH5U12ynFmdpRc7KV0SLlwqS2YMPssHNBPWW4xyyc29zbQy74E0aRyoohpmqrb2RSBfua3g2s71l4Rw69ulRvJwN2AiKXMok5klUKbf+zBnhKzOMrV7cZJICIIXwX2or9XfhzqHEscp8XJOosT+TXeVBmQP+1mPWkjx1SOmSxOooWx/Lhkmtozb+DCwEfn/JM/vSsDJFTdWHo7bOpy5ElnvbLtNpUYRJlYApP3EKynbl+9g7iSQ3aOcb4g8htBLaYfPPh+6NyejlDWjpnzJB8CYA9Ic6SQFOCpUVkFzn1S/M50d567vUCunA20wIoaUJkYiyayLlCgO+1VMVd66ZK05H8G3wZFE8inpL6xZCWdv9XEh5WeRwKCKdhXqWzXft3jyG9Jm1rTcNcjhBnz/9RzFHZTmtxnJQ0oPdZIkCH72+klkruuztiDRZXd/FhG89WkIV85Cdmht7L36yeliJERIaMSNN35b7T95k26+AtiF34vwjjjjqFP00szP133YfuhW0Lp0pCss8PT1VTFzkw4W7hg28AKfZG5fECnBewWBccm55zKXLHmnT56D2hlUxsqqvX4LnQFGIM+NqClmVAnSErGyLdg/u/CtTjpRnExB/QhSbPNNBl4qDJn5Cn2V5TCL5dlhzVGchETnjPPym4yCHrW+VtOwNxcGDLh/XKiU5XP+G7NiYlH7iC+pqPODr8AKiwjfxd/56EROQBnJ69uGbZrkaC8cK5r3o5Tx2NnGmOJ7bj83vWf0drTvsf1hVePgAeln84URUJSJ8SnzN+iPI6S73DK2o0EKZ/n4LosoF32SqZjafCg+wYEMDdPSmvMA1O1uc8Y+nbrZzj21TW15JyU8pCJeFO4uz9gEXbTzAcxLjt0XMFsyXPTJF5tfBamTuTM/FHapIMFFpCEuJwAc7Q5dbyLGXtDDiUn3p4M3HIzQw34q2JsJyH0tEDWzMvNkIcXV/v2+cLlVBKrSLqHjbF0baTdedo0D33kKJg8h6Qd6hfUVOv6WsY1ZNVpF5Dsxb6IhfF0Q9f+Nb2qqN/jmLMg/xHuuSJoXUFWp2NPST4b058ouB6cajn/q0qqTDcpOmhI99LOJd+c5zVdvJwf0Z4SymelPC7k2Y5jUfQE1D2C3x8A/GLrdIsoARpkFGOgpv3PnC9dgTwz2UgktSWCSpwWoKFveXh6YHZNTBu0QJcjrv8GonlJYph2oPj6O75a4ay6bZ0Gd7e2tdWNNllFULiL/6pu3VBZvXtayqNqd3Yc7b+KZjFuoi1peJE3U40cCWuR8ILHOOBuJBMqSnbrS2zmf/tQlcMhrzvzPvvAsWmdXBhbY7UriqD/x9yyHvm/PkvRE/FSkual4aT3aBmmMDOQkR7E7LRzvJFebT+V2S8nmI7p3CkC798bXiDGSqRkMc6v9l6suMGVYU7xs65vstvzrVvt+dGTg7Tc0lgXFtwcGFG0bccdw33geAzb1TYd+ZLbjpfx3TzInUjeuIsiiFQBAdfYmzxHf538waGKpfVyC2tLYl6rydLApgtkoyiNlJ1Q/NLVd2q5Lx8iJLDrSKr5bBjY8bt9fxtfs7wiP7QfTyVk242YEKrknVs8fYX/nquNvbLq/GpXNB0+DfBjOt3Xnbd1bGZvC5kX80tA5jj/4tThb8EppAKFQN6TtW58m6mMVKF4vPbSiMGuSBw97fxF5+JWx0jgLct4z+hQvV/lcGDvee6q3Je6f+8Z7cRtD6RzCvXLo92htEcIoTJW1UeIkCl91b0cGpYoOb0KEYHdbW2zqfrmHDfVenDrLnXPqNFmHEydXq2uHbq3z0H3qCaXw/SLeUp634ZNYb1/jCoOtEtmlXLe7XR/sSsdwbMHTCEznhAcfUgSNjNIH376E/RkJcUYUHlu28vwZWbVhv5A5z9VOKHB+1+KOrW87eTHZUBre0kGlGX4NgE+J57+bjCkjRxOBOwBJgmcqLR17bWjQPBCiaWokALrChP1rvAveHJY80c5rJPivNW0bgDR8ISdmjr46FnfDchDR42UIWQHg+QMcMl1xsT106Ydeg1pL+Cwy6OlvgZBGGg7GQm0SCq+seRUAASYMKBOiNAOfzITjEvViSB9+l8+F7y7N55bzdwP9I+p8nggvFfCoPz+63Bd1j6ByOmjgcHqZuWDg9fGpVYmetAYDUlCkZcgdHmkUblGTWEwElHWJPXaB2/L3CKZN8lwftHNCo81AiJIezoingYoGDA1UozBhFrTggAbtZpB+W30zx6AYK3KrrLQbQodv3WL6NvNVL3plrj/X5b0nZyWcskM4nYBpu7mJX7boOdklwFdwhw5VldeLZjakE47iUr86cFEFl70EUqeGoUKGO53TicSRGHNzETqYnjpviait47vm47s6gJiH9AE44iUwNMWm5wNTpjomUvE22PucX+2d64q+Ip+IdLulXPx4fLUdechBAn92YJigLw/LSGslf6vM4u8YdepOlulCxm4T/DmpIJJpWFb6YvWGlxw0heNtJlulej+UgX3t9FGfSEoXkCZCH/PhwYnVfMmL59Nvrbg1CH1V5VHIJ7bCCPu1lRKNslQOBp3euCi7O9zQIgN0RXI3Ue7uEJ2JwHReKgk7BwdEBZZzDG7yafMxr05qEcdzRq0Wjy3w94CaGyxr7KAwiw74izdySDmx4JIS8+d7Xbodut0lBJEFYJD+q8MJ4yeEv8IGbk816rvUWH/tRwuRicnYSS+KmSlj+3JBBMwm7GSmwQPtUdgBCPAmqWpTQUZ5TYxz5qjDXOd8ciU4jVfEn3ZYhTinQnIxkTCXSJrscnzwCtE6JLs/T3wnrnMeGttd36i/Nt+BTxur+x0bcmjjHuu5xrCQCFBnCWvgqeaceO9pFaeigvthVENP/s9ecC0w8fr2JIh4KmSp068O6XHK/g2pGOCkemLc/F8Hzn9468qxzFLMddxbUN25+MHg+YCmqRG0k8GPcrutKtzsFTWiZhP28sq90RBxyZJKk9JhTw4Y94mS3t0Jp+XrwS3WeK9VIL3+jE1BcC4JGR21tjYcA9Ssm2Fv8hSDqQVz/swgGkQehabx5un4Hh1liOB+OWfedLLo/zUfzNxAv64LXm8+T11b1hiTZLKDwtd8RsuVHQHs+NSSWQ1+0Ujm5kpzb8YsPFNBw=" data-i="200000"></div>
+<script>
+(async function(){
+  var d=document.getElementById("lockdata").dataset, K="lk:"+d.s;
+  function b(x){return Uint8Array.from(atob(x),function(c){return c.charCodeAt(0);});}
+  async function show(key){var pt=await crypto.subtle.decrypt({name:"AES-GCM",iv:b(d.n)},key,b(d.c));var h=new TextDecoder().decode(pt);document.open();document.write(h);document.close();}
+  try{var raw=localStorage.getItem(K);if(raw){await show(await crypto.subtle.importKey("raw",b(raw),"AES-GCM",false,["decrypt"]));return;}}catch(e){try{localStorage.removeItem(K);}catch(_){}}
+  document.documentElement.classList.add("ready");
+  var f=document.getElementById("lockform"),i=document.getElementById("lockpw"),err=document.getElementById("lockerr");i.focus();
+  f.addEventListener("submit",async function(e){e.preventDefault();err.textContent="";
+    try{var base=await crypto.subtle.importKey("raw",new TextEncoder().encode(i.value),"PBKDF2",false,["deriveKey"]);
+      var key=await crypto.subtle.deriveKey({name:"PBKDF2",salt:b(d.s),iterations:+d.i,hash:"SHA-256"},base,{name:"AES-GCM",length:256},true,["decrypt"]);
+      var test=await crypto.subtle.decrypt({name:"AES-GCM",iv:b(d.n)},key,b(d.c));
+      try{var r=new Uint8Array(await crypto.subtle.exportKey("raw",key));localStorage.setItem(K,btoa(String.fromCharCode.apply(null,r)));}catch(_){}
+      document.open();document.write(new TextDecoder().decode(test));document.close();
+    }catch(x){err.textContent="That's not it. Try again.";f.classList.remove("shake");void f.offsetWidth;f.classList.add("shake");i.select();}});
+})();
+</script>
 </body></html>
